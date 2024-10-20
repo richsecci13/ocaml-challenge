@@ -1,0 +1,1 @@
+let in_range (x : 'a) (a: 'a) (b : 'a) : bool = x >= a && x <= b
