@@ -1,5 +1,5 @@
 let best_offer (a : int option) (b : int option) (c : int option) : int option =
-  if (a == None && b == None && c == None) then
+  if (a = None && b = None && c = None) then
     None
   else if (a >= b && a >= c) then
     a
